@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    margin:0;
+    font-family: "Montserrat";
+}
+
+.container-logo {
+    background-color: #FFC107;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 5px grey;
+}
+
+nav {
+    background-color: #ffa000;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+}
+
+.menu-item-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+
+#pagina-receita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pratos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+#receita {
+    max-width: 560px;
+    margin-bottom: 100px;
+}
+
+#titulo-receita {
+    margin-top: 80px;
+    color: #FFC107;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#titulo-pagina {
+    margin-top: 80px;
+    color: #FFC107;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.foto-receita {
+    width:560px;
+    margin-bottom: 25px;
+    display:block;
+}
+
+.caracteristicas-receita {
+    border: 1px solid #176902;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: #176902;
+}
+
+#ingredientes {
+    margin-top: 50px;
+}
+
+.ingredientes-lista, .preparo {
+    margin-bottom: 50px;
+}
+
+#titulo-relacionados {
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFA000;
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+
+#relacionados {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 29%;
+    padding: 40px;
+    text-align: center;
+}
+  
+.card-receita {
+    width: 345px;
+    box-shadow: 0px 2px 2px 0px grey;
+    margin: 0 auto 60px auto;
+}
+  
+.card-receita div {
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.box-receita {
+    width: 345px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.box-receita div {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box-receita a {
+    padding: 10px 50px;
+    background-color: #176902;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+}
+
+.box-receita img {
+    width: 345px;
+    height: 345px;
+    object-fit: cover;
+}
+
+#main-contato {
+    max-width: 1440px;
+}
+
+#imagem-contato-topo {
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/image\ 1.png);
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+#imagem-contato-topo p {
+    margin-top: 0;
+    max-width: 419px;
+    padding: 49px 122px;
+}
+  
+#imagem-contato-form {
+    width: 20%;
+    height: 800px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 150px auto 300px auto;
+    color: #FFC107;
+}
+
+#formulario div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#FFC107;
+    border: 1px solid #FFA000;
+    border-radius: 15px;
+    width: 700px;
+    margin-left: 15px;
+}
+
+#formulario h1 {
+    margin-left: 20px;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#formulario form * {
+    margin: 10px 0;
+    font-family: "Nunito";
+    padding: 10px;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    padding: 20px;
+}
+
+#formulario button {
+    color: #fff;
+    border-radius: 50px;
+    background-color: #FFC107;
+    width: 150px;
+    height: 40px;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#formulario textarea {
+    height: 100px;
+}
+
+#formulario input, textarea {
+    border: 1px solid #FFA000;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#titulo-index {
+    margin-top: 80px;
+    color: #FFC107;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#imagem-index-topo {
+    background-image: url(/images/image\ 2.png);
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+#imagem-index-topo p {
+    margin-top: 0;
+    padding: 166px 101px 302px 900px;
+    text-align: left;
+    width: 400px;
+}
+
+#imagem-index-baixo {
+    background-image: url(/images/image\ 3.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 120px 100px;
+}
+
+#imagem-index-baixo p {
+    font-weight: 700;
+    font-size: 55px;
+    text-align: left;
+}
+
+#imagem-index-baixo span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#imagem-index-baixo div {
+    width: 350px;
+}
+
+footer {
+    background-color: #ffc107;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
